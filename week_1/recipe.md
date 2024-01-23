@@ -17,7 +17,7 @@
 - *2 tablespoons soy sauce*
 - *1 1/2 to 2 tablespoons maple syrup, can sub with brown sugar (see note 4)*
 - *1 teaspoon toasted sesame oil*
-___      
+ 
 
 ## ***Instructions for Constructing Rolls***
 
@@ -30,15 +30,10 @@ ___
 
 1. Mix all the ingredients in a bowl.
 2. Distribute in sauce containers.
-___
+
 ## ***Congrats! Enjoy your spring rolls by plating like the ones in the picture below!***    
  
-### 
-
-
-
-
-<img src="springroll.jpg" 
+<img src="springroll.jpg"
  alt="your-image-description"
  style="border: 5px solid  pink;">
 

@@ -1,13 +1,14 @@
 # **Vietnamese Spring Rolls**
 
 ## ***Ingredients for Rolls***
+#### *Amount of ingredients varies depending on how many you would like to make. Measurements below are for one roll*
 
-- *rice paper*
-- *vermicelli noodles*
-- *shrimp*
-- *mint leaves*
-- *lettuce*
-- *thai basil*
+- *1 sheet of rice paper*
+- *a handfull of vermicelli noodles(about 1/3 or 1/2 cup)*
+- *3 pieces of halved shrimp*
+- *4 mint leaves*
+- *1 piece of lettuce*
+- *thai basil(as much as desired)*
 
 ## ***Ingredients for Sauce***
 
@@ -33,8 +34,8 @@
 
 ## ***Congrats! Enjoy your spring rolls by plating like the ones in the picture below!***    
  
-<img src="springroll.jpg"
+<!-- <img src="springroll.jpg"
  alt="your-image-description"
- style="border: 5px solid  pink;">
+ style="border: 5px solid  pink;"> -->
 
-<!-- ![alt text](springroll.jpg) -->
+![alt text](springroll.jpg)

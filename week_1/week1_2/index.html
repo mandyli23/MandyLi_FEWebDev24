@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- This is the character set attribute specifies the character encoding for the HTML doc,
+        UTF-8 character set covers almost all of the characters abd symbols in this world. If you forget 
+        this, your fonts (especially custom ones) might not show up properly!-->
+        <meta charset="utf-8">
+        <!-- The viewport tag sets the initial scale and it ensures proper responsive behavior.
+        we are overriding the browsers default styling. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The title tag, shows up as the big blue link in search results and in the browser
+        -->
+        <title>HTML Elements 101</title>
+    </head>
+    <body>
+        <!--Everything inside the body tags shows up in the broswer window! goes up to h6?  -->
+        <h1>Heading 1 is the most important text on the page. There should only be 1 h1 per page!</h1>
+        <!-- we have h1-6, these are all more important than regular paragraph text -->
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <hr/>
+         <!-- most text will probably wind up as a p tag. You can weight certain words 
+            or phrases with more importance with an em AND strong tags -->
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend 
+            lectus dignissim magna porttitor feugiat. Nullam hendrerit augue sed neque 
+            faucibus, vel sagittis est varius. Quisque sollicitudin nisl sit amet convallis 
+            pharetra. <em>Vivamus congue ultricies sodales.</em> Donec iaculis augue nec diam 
+            condimentum, sed consectetur purus dictum.
+            <!-- break tags start a new line -->
+            <br/> 
+             Nulla aliquam gravida tellus, quis
+            aliquam magna <strong>euismod quis.</strong> Nam viverra nulla sed bibendum lobortis. 
+            Curabitur porttitor odio sem, sed pulvinar nunc feugiat quis.
+        </p>
+        <h2>Buttermilk Pancakes</h2>
+        <p>This is a descripion of this amazing recipe.</p>
+        <h3> Ingredients</h3>
+        <!-- unordered lists are used for listing items when the exact order is not important -->
+        <ul>
+            <!-- Individual items in an ordered or unordered list need to be in li tags -->
+            <li>1 cup flour</li>
+            <li>1 cup milk</li>
+            <li>1 stick of butter</li>
+            <li>2 tsp sugar</li>
+            <li>1 egg</li>
+            <li>spices
+                <ul>
+                <li>cinnamon</li>
+                <li>salt</li>
+                <li>nutmeg</li>
+                </ul> 
+            </li>
+        </ul>
+
+        <h3> Instructions</h3>
+
+        <!-- ordered lists care about and display some sort of order notation -->
+        <ol>
+            <li>Combine all ingredients in a bowl</li>
+            <li>Heat pan on medium, melt one tbsp butter</li>
+            <li>add a scoop of batter to the pan</li>
+            <li>More steps to show a sub-ordered list
+                <ol>
+                    <li>count to ten</li>
+                    <li>flip the pancake</li>
+                    <li>count to ten again</li>
+                </ol>
+            </li>
+            <!-- <li></li>  -->
+        </ol>
+        
+        <!-- a = anchor tag, anchor tags allow linking to another page-->
+        <!-- make sure to add href for link reference -->
+        <!-- target _blank opens link in new browser, use _self to open in the same tag-->
+        <!-- if not specificed, will open in same browser -->
+        <a href="https://sugarspunrun.com/buttermilk-pancakes/" target="_blank">Link to a real pancake recipe!</a>
+        
+        <!-- #top goes to the top of the page -->
+        <a href="#top">back to top</a>
+        <!-- src = source -->
+        <br/>
+        <br/>
+        <!-- for width, can use percent by saying "50%" or px by saying "300px" (when you have css, DO NOT DO THIS IN PRODUCTION!)-->
+        <!-- alt is for alternative text just in case something doesn't load -->
+        <!-- title can sometimes show up as hovered text on an image -->
+        <img 
+            src="https://sugarspunrun.com/wp-content/uploads/2019/03/Best-buttermilk-pancake-recipe-14-of-16.jpg"
+            width="500px"
+            height="500px"
+            alt="Buttermilk panckes with hot maple syrup"
+            title="Buttermilk Pancakes"
+        />
+
+        <img 
+            src="pancakes.jpeg"
+            alt="other image (supposed to show up through folder ex) img/pancakes"
+            width="100px"
+        />
+
+        <a href="about/index.html">About page link</a>
+        <a href="boilerplate.html">Boilerplate link</a>
+    </body>  
+</html>

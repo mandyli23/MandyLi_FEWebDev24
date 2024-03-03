@@ -3,25 +3,142 @@
 * {
  margin: 0;
  padding: 0;
+ box-sizing: border-box;
 }
 
+
+
+a {
+    text-decoration: none;
+}
+
+/* cc */
+/* 
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../img/grey_wash_wall.png');
+    padding: 0 2rem;
     position: relative;
-}
-
-
+  }
+  
+  .brand {
+    margin: 0;
+    font-weight: 300;
+  }
+  
+  header a {
+    color: #aaa;
+    text-decoration: none;
+  } */
 
 /* LOCAL */
+  /* navigation */
 
-.top-bar {
-    width: 100%;
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    padding: 0 2rem;
+    /* position: absolute; */
     height: 50px;
-    background-color: rgb(6, 5, 3);
-    color: aliceblue;
-    position: relative;
+  }
+
+ 
+
+
+
+
+
+/* wrap for the dropdown */
+.wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.head {
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  
+  .topbar li a {
+    display: block;
+    padding: 1rem;
+    min-width: 7rem;
+    background-color: pink;
+    
+  }
+
+  /* .hide {
+    visibility: hidden;
+  } */
+  
+ /* .undrlne:hover { */
+    /* visibility: visible; */
+    /* y wont my shit show hdchbjdbhdb */
+    /* color: #eee;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+    flex-wrap: wrap;
+  } */
+
+  /* ul a:hover {
+    visibility: visible;
+    color: #eee;
+    background-color: rgba(0, 0, 0, 0.3);
+  } */
+
+  /* submen */
+
+/* .ridlst {
+    list-style-type: none;
+} */
+
+/* .centerText {
+    text-align: center;
+} */
+
+/* Hide sub-menu initially  */
+.ridlst {
+    display: none;  /* Changed from display: flex */
+    list-style-type: none;
+  }
+  
+  /* Show sub-menu on hover of parent list item */
+  .topbar li:hover .ridlst {
+    display: flex; /* Show sub-menu on hover */
+
+    position: absolute; /* Position outside flexbox flow */
+    top: 100%; /* Position below parent list item */
+    left: 0; /* Align to left of parent */
+    background-color: rgba(0, 0, 0, 0.3); /* Optional background for sub-menu */
+  }
+  
+  /* Center top-level list items  */
+  /* .topbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* Center top-level items */
+  /* } */ 
+
+
+/* middle banner */
+
+main {
     width: 100%;
     height: 400px;
     background-color: aliceblue;
@@ -29,12 +146,16 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    position: relative;
 }
+
+
 
 .centerA {
     align-self: center;
     justify-content: space-between;
     /* y wont justify */
+    /* position rel/abs ^*/
     
 }
 
@@ -43,6 +164,7 @@ header {
     height: 400px;
     background-color: bisque;
     position: absolute;
+    z-index: 0;
     right: 100px;
     top: 0px;
 }
@@ -55,26 +177,3 @@ header {
    
 }
 
-/* navigation */
-nav ul {
-    display: flex;
-    list-style-type: none;
-    text-align: center;
-    background-color: rgb(5, 4, 4);
-    position: absolute;
-    top: 0;
-    justify-content: center;
-}
-
-nav li {
-    font-size: 18px;
-    height: 50px;
-    line-height: 50px;
-    width: 120px;
-    
-}
-
-
-
-
-  

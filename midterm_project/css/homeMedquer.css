@@ -1,0 +1,172 @@
+/* Add this media query for screens smaller than 600px */
+@media screen and (max-width: 768px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+/* navigation */
+
+    .navbar a,
+    .dropdown2,
+    .dropdown3,
+    .dropdown4 {
+      float: none;
+      display: flex;
+      flex-direction:row;
+    
+      /* display: block; */
+      text-align: center;
+    }
+  
+    .dropdown2 .dropbtn2,
+    .dropdown3 .dropbtn3,
+    .dropdown4 .dropbtn4 {
+      width: 100%; 
+    } 
+  
+    .dropdown-content2,
+    .dropdown-content3,
+    .dropdown-content4 {
+      position: static;
+      display: none;
+      width: 100%; 
+      padding: 0;
+      margin: 0;
+    } 
+
+/* banner/header idk*/
+
+    .hello {
+        font-size: 2.5rem;
+        padding: 0px;
+        margin: 0px;
+        width: 100%; 
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+        height: 800px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        border-bottom: 5px dotted whitesmoke;
+        border-top: 5px dotted whitesmoke;
+
+
+    }
+    
+    .container2 {
+        background-color: black;
+        width: 100%;
+        height: 250px;
+    
+       /* position: relative; */
+        /* bottom: 50px; */
+
+
+    }
+
+    .logos {
+        overflow: hidden;
+        height: 250px;
+        width: 100%;
+        background-color: black;
+        white-space: nowrap;
+        position: absolute;
+        /* bottom: 50px; */
+      
+      }
+      
+      .logos-slide {
+        display: inline-block;
+        animation: 9s slide infinite linear;
+      }
+      
+  
+      .logos-slide img {
+        height: 250px;
+        width: 70px;
+
+        padding: 0 30px;
+ 
+      }
+
+      .logos-slide1-2 {
+        display: inline-block;
+        animation: 9s slide infinite linear;
+       
+      
+      }
+      
+  
+      .logos-slide1-2 img {
+        height: 250px;
+        width: 70px;
+
+        padding: 0 30px;
+ 
+      }
+
+
+
+
+    @keyframes slide {
+        from {
+          transform: translateX(0%);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      } 
+
+      @keyframes slide1-2 {
+        from {
+          transform: translateX(50%);
+        }
+        to {
+          transform: translateX(0%);
+        }
+      } 
+
+
+
+      /* 2 */
+      .logos2 {
+
+        width: 0;
+        height: 0;
+      
+      
+      }
+      
+
+
+      /* 3 */
+
+      .container3 {
+        height: 1500px;
+      }
+
+      .logos3 {
+
+        width: 0;
+        height: 0;
+      }
+  
+
+      /* destinations */
+      h2 {
+        font-size: 2rem;
+      }
+      
+      .frame {
+        height: 400px;
+      }
+
+
+
+  }

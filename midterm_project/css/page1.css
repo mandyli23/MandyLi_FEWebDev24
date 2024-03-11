@@ -22,7 +22,7 @@ a {
 .navbar {
   overflow: hidden;
   background-color: black;
-  border-bottom: 2px dotted white;
+  border-bottom: 5px dotted white;
 }
 
  .navbar a {
@@ -571,15 +571,15 @@ div.head2 {
 
 
 .rightside > img {
-  max-width: 100%; /* Ensure the image doesn't overflow */
-  max-height: 100%; /* Ensure the image doesn't overflow */
+  max-width: 100%; 
+  max-height: 100%; 
   border-radius:  90px 0px 0px 90px;
   border-width: 60px ;
   border-color: #2d3f56 ;
   border-style:dashed;
-/* color #463f3a */
+
   border-right-width: 37px;
-  /* (to top, #8a817c, black) */
+  
   
 }
 /* Show the target pop-up */
@@ -614,6 +614,7 @@ div.head2 {
 }
 
 .gallery {
+
   background-color: #463f3a;
   /* background-color: white; */
   width: 100%;
@@ -623,6 +624,7 @@ div.head2 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start; 
+ 
 }
 
 .imageBorder {
@@ -641,14 +643,12 @@ div.head2 {
   border-bottom: 70px solid white;
   padding: 0;
   margin: 0;
-  /* border-bottom-width: 45px;  */
+ 
   display: flex;
   position: relative;
   box-sizing: border-box;
   transition: all 0.5s;
-  /* padding-bottom: 60px;  */
-  /* border-bottom-width: 45px;  */
-  /* Adjust bottom border width */
+
 }
 
 

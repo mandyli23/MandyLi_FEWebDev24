@@ -8,7 +8,7 @@
       float: none;
       display: flex;
       flex-direction:row;
-    
+      justify-content: center;
       /* display: block; */
       text-align: center;
     }
@@ -16,7 +16,7 @@
     .dropdown2 .dropbtn2,
     .dropdown3 .dropbtn3,
     .dropdown4 .dropbtn4 {
-      width: 100%; 
+      width: 100%;
     } 
   
     .dropdown-content2,
@@ -27,6 +27,7 @@
       width: 100%; 
       padding: 0;
       margin: 0;
+      background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(203,197,197,1) 100%, rgba(75,74,84,1) 100%);
     } 
 
 /* video */
@@ -258,11 +259,159 @@ section > h2{
     }
 
 
+/* safety */
+
+.safe {
+
+  height: 70px;
+}
+
+.sectionn p {
+  font-size: 1.5rem;
+}
+
+.sectionn {
+  height: 30px;
+}
+.blankspace7 {
+  height: 100px;
+}
+
+/* wof */
+
+.mainWOF {
+  font-size: 2rem;
+}
+
+.medquer-arrow {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ce9d8e;
+ 
+}
+
+.medquer-arrow > span {
+  font-size: 150px;
+  color: white;
+}
+
+.blankspacemedq {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #ce9d8e;
+}
+
+.secondaryWOF {
+  width: 100%;
+  height: 1900px;
+  flex-direction: column;
+}
+
+.WOF {
+  width: 100%;
+  background-color: #ce9d8e;
+  flex-direction: column;
+
+
+}
+
+.iconWOF1 {
+  width: 50%;
+  height: 240px;
+  display: flex;
+}
+
+.text1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 
 
 
-  
+.iconWOF2 {
+  width: 50%;
+  height: 240px;
+  display: flex;
+}
+
+.text2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.iconWOF3 {
+  width: 50%;
+  height: 240px;
+  display: flex;
+}
+
+.text3 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* perk */
+
+.mainPerk {
+  font-size: 2rem;
+}
+
+.secondaryPerk {
+  width: 100%;
+  height: 1500px;
+  flex-direction: column;
+}
+
+.perk {
+  width: 100%;
+  background-color: #ce9d8e;
+  flex-direction: column;
+
+
+}
+
+.iconP {
+  width: 50%;
+  height: 240px;
+  display: flex;
+}
+
+.text4 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 
 
 
-} 
+.iconP2 {
+  width: 50%;
+  height: 240px;
+  display: flex;
+}
+
+.text5 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.iconP3 {
+  width: 50%;
+  height: 240px;
+  display: flex;
+}
+
+.text6 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+}

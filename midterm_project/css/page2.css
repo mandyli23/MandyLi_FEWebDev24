@@ -234,8 +234,9 @@ a {
 
 .blankspacee {
   width:100%;
-  height:300px;
-  background-image: linear-gradient(to bottom, black, #463f3a); 
+  height:500px;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #613981 100%);
+
 }
 
 /* HOTEL */
@@ -250,7 +251,7 @@ div.head1 {
     justify-content: space-evenly;
     /* position: relative; */
     /* background-color: #bcb8b1; */
-    background-color: #463f3a;
+    background-color: #613981;
     color: white;
     align-self: center;
   
@@ -268,7 +269,7 @@ div.head1 {
     width: 100%;
     height: 80px;
     display: flex;
-    background-color: #463f3a;
+    background-color: #613981;
 }
 
 
@@ -277,7 +278,7 @@ div.head1 {
 /* 5star */
 
 .starRate5 {
-  background-color: #463f3a;
+  background-color: #613981;
   width: 100%;
   height: 100px;
 
@@ -313,7 +314,7 @@ div.head1 {
 
 
 div > .s5_1 {
-    background-color: #463f3a; 
+    background-color: #613981; 
     width: 50%;
     height: 300px;
 
@@ -325,7 +326,7 @@ div > .s5_1 {
 
 
 div > .s5_2 {
-    background-color:#463f3a;
+    background-color: #613981;
     width: 50%;
     height: 300px;
     color: black;
@@ -335,7 +336,7 @@ div > .s5_2 {
 }
 
 div > .s5_3 {
-    background-color:#463f3a;
+    background-color:#613981;
     width: 50%;
     height: 300px;
     color: black;
@@ -356,7 +357,8 @@ div > .s5_3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #463f3a;
+    /* background-color: rgba(97,57,129,.6) ; */
+    background-color: rgba(0,0,0, 0.5);
     opacity: 0;
     z-index: 1; /* Ensure the overlay is behind the image */
     display: flex;
@@ -378,7 +380,7 @@ div > .s5_3 {
 
 /* 4star */
 .starRate4 {
-  background-color: #463f3a;
+  background-color: #613981;
   width: 100%;
   height: 100px;
   display: flex;
@@ -403,7 +405,7 @@ div > .s5_3 {
 
   scroll-snap-align: start;
   scroll-behavior: smooth;
-  background: #463f3a;
+  background: #613981;
   justify-content: center;
   align-items: center;
   font-size: 100px;
@@ -434,7 +436,7 @@ div > .s5_3 {
  
   /* 3star */
   .starRate3 {
-    background-color: #463f3a;
+    background-color: #613981;
     width: 100%;
     height: 100px;
     display: flex;
@@ -461,7 +463,7 @@ div > .s5_3 {
     
     scroll-snap-align: start;
     scroll-behavior: smooth;
-    background: #463f3a;
+    background: #613981;
     justify-content: center;
     align-items: center;
     font-size: 100px;
@@ -483,7 +485,7 @@ div.head2 {
     height: 250px;
     display: flex;
     justify-content: space-evenly;
-    background-color: #8a817c;
+    background-color: rgba(215,168,204,1);
     color: white;
     font-family: Amaranth;
 }
@@ -493,7 +495,7 @@ div.head2 {
   width: 100%;
   height: 300px;
   display: flex;
-  background-image: linear-gradient(to bottom, #463f3a,#8a817c ); 
+  background: linear-gradient(180deg, rgba(97,57,129,1) 0%, rgba(215,168,204,1) 100%);
 }
 
 
@@ -510,7 +512,7 @@ div.head2 {
 
 .foodtry {
   /* background-color: #8a817c; */
-  background-color: #8a817c;
+  background-color: rgba(215,168,204,1);
   width: 100%;
 
   height: 700px;
@@ -522,7 +524,7 @@ div.head2 {
   padding: 20px;
   width: 50%;
   height: 580px;
-  background-color: #8a817c;
+  background-color: rgba(215,168,204,1);
   text-align: center;
   font-family:  Helvetica;
   font-style: italic;
@@ -548,7 +550,7 @@ div.head2 {
 
 .right {
   position: absolute;
-  background-color:  #8a817c;
+  background-color:  rgba(215,168,204,1);
   width: 50%;
   height: 580px;
   right: 0px;
@@ -557,7 +559,7 @@ div.head2 {
 .rightside{
   position: absolute;
   display: flex;
-  background-color:  #8a817c;
+  background-color:  rgba(215,168,204,1);
   width: 50%;
   height: 580px;
   right: 0;
@@ -576,7 +578,7 @@ div.head2 {
   max-height: 100%; 
   border-radius:  90px 0px 0px 90px;
   border-width: 60px ;
-  border-color: #2d3f56 ;
+  border-color: rgba(97,57,129,1) ;
   border-style:dashed;
 
   border-right-width: 37px;
@@ -593,19 +595,19 @@ div.head2 {
 
 .blankspace3 {
   width: 100%;
-  height: 200px;
-  background-image: linear-gradient(180deg, #8a817c, #463f3a);
+  height: 350px;
+  background: linear-gradient(180deg, rgba(215,168,204,1) 0%, rgba(85,120,175,1) 100%);
 }
 .blankspace4 {
   width: 100%;
   height: 70px;
-  background-color:  #463f3a;
+  background-color: rgba(85,120,175,1);
 }
 
 .attract {
   width: 100%;
   height: 300px;
-  background-color: #463f3a;
+  background-color: rgba(85,120,175,1);
   display: flex;
   justify-content: space-evenly;
 
@@ -616,7 +618,7 @@ div.head2 {
 
 .gallery {
 
-  background-color: #463f3a;
+  background-color: rgba(85,120,175,1);
   /* background-color: white; */
   width: 100%;
   height: 1500px;
@@ -718,7 +720,7 @@ div.head2 {
 .blankspace5 {
   width: 100%;
   height: 200px;
-  background-image: linear-gradient(to bottom, #463f3a ,#2d3f56);
+  background: linear-gradient(180deg, rgba(85,120,175,1) 0%, rgba(145,142,188,1) 72%);
 }
 
 .fontHead2 {
@@ -730,7 +732,7 @@ div.head2 {
 .transport {
   width: 100%;
   height: 100px;
-  background-color: #2d3f56;
+  background-color: rgba(145,142,188,1);
   color: white;
   display: flex;
   justify-content: space-evenly;
@@ -741,7 +743,7 @@ div.head2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #2d3f56;
+  background-color: rgba(145,142,188,1);
   width: 100%;
   height: 500px;
 
@@ -749,8 +751,8 @@ div.head2 {
 .Scroll-y {
   width: 30%;
   height: 300px;
-  background-color: #84a8d7;
-
+  background-color: whitesmoke;
+  color: rgb(46, 44, 44);
   border-radius: 40px 40px 40px 40px;
   overflow-y: auto; /* Enable vertical scrolling */
   scroll-snap-type: y mandatory; /* Snap scrolling to each child */
@@ -793,12 +795,12 @@ div.head2 {
   width: 30%;
   height: 280px;
   /* background-color:#a5968b; */
-  background-color: #2d3f56;
-  border: 10px dashed #a5968b;
+  background-color: rgba(145,142,188,1);
+  border: 10px dashed rgb(46, 44, 44);
   border-radius: 40px 40px 40px 40px;
   overflow-y: auto; /* Enable vertical scrolling */
   scroll-snap-type: y mandatory; /* Snap scrolling to each child */
-  color: rgb(208, 194, 184);
+  color: rgb(46, 44, 44);
 }
 
 .Scroll-y2 > div > span {
@@ -844,13 +846,13 @@ div.head2 {
 .blankspace6 {
   width: 100%;
   height: 300px;
-  background-image: linear-gradient(to bottom,#2d3f56, #ce9d8e);
+  background: linear-gradient(180deg, rgba(145,142,188,1) 10%, rgba(224,161,131,1) 90%);
 }
 
 .safe {
   width: 100%;
   height: 200px;
-  background-color:#ce9d8e;
+  background-color: rgba(224,161,131,1);
   color: white;
   display: flex;
   justify-content: center;
@@ -859,7 +861,7 @@ div.head2 {
 .sectionn {
   width: 100%;
   height: 100px;
-  background-color: #ce9d8e;
+  background-color: rgba(224,161,131,1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -867,7 +869,7 @@ div.head2 {
 
 .sectionn p {
 
-  color: rgb(161, 78, 78);
+  color: rgb(46, 44, 44);
   font-size: 3rem;
   font-family: Fira Sans;
   
@@ -876,7 +878,7 @@ div.head2 {
 .blankspace7 {
   width: 100%;
   height: 180px;
-  background-color: #ce9d8e;
+  background-color: rgba(224,161,131,1);
 }
 
 /* med quer */
@@ -896,30 +898,30 @@ div.head2 {
   display:flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #ce9d8e;
+  background-color: rgba(224,161,131,1);
   font-size: 3.5rem;
   font-family:  amaranth, Fira Sans;
   font-style: italic;
   font-weight: 900;
   /* color: #463f3a; */
-  color:#2d3f56;
+  color: rgb(75, 74, 103);
 }
 
 .secondaryWOF {
   width: 100%;
-  height: 750px;
+  height: 950px;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #ce9d8e;
+  background-color: rgba(224,161,131,1);
   /* padding:  20px; */
   
 }
 
 .WOF {
   width: 50%;
-  background-color: #ce9d8e;
+  background-color: rgba(224,161,131,1);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -944,7 +946,7 @@ div.head2 {
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#463f3a;
 }
 
@@ -967,7 +969,7 @@ div.head2 {
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#463f3a;
 }
 
@@ -990,7 +992,30 @@ div.head2 {
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color:#463f3a;
+}
+
+/* 7 */
+.iconWOF7 {
+  width: 30%;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.66);
+  border-radius: 48%;
+}
+
+.iconWOF7 > span {
+  font-size: 150px;
+}
+.text7 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: Amaranth;
+  font-size: 2rem;
   color:#463f3a;
 }
 
@@ -1002,30 +1027,30 @@ div.head2 {
   display:flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #ce9d8e;
+  background-color: rgba(224,161,131,1);
   font-size: 3.5rem;
   font-family:  amaranth, Fira Sans;
   font-style: italic;
   font-weight: 900;
   /* color: #463f3a; */
-  color:#2d3f56;
+  color: rgb(75, 74, 103);
 }
 
 .secondaryPerk {
   width: 100%;
-  height: 750px;
+  height: 1300px;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #ce9d8e;
+  background-color: rgba(224,161,131,1);
   /* padding:  20px; */
   
 }
 
 .perk {
   width: 50%;
-  background-color: #ce9d8e;
+  background-color: rgba(224,161,131,1);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -1050,7 +1075,7 @@ div.head2 {
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#463f3a;
 }
 
@@ -1073,7 +1098,7 @@ div.head2 {
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#463f3a;
 }
 
@@ -1096,6 +1121,51 @@ div.head2 {
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color:#463f3a;
+}
+
+/* 4 */
+.iconP4 {
+  width: 30%;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.66);
+  border-radius: 48%;
+}
+
+.iconP4 > span {
+  font-size: 150px;
+}
+.text8 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: Amaranth;
+  font-size: 2rem;
+  color:#463f3a;
+}
+/* 4 */
+.iconP5 {
+  width: 30%;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.66);
+  border-radius: 48%;
+}
+
+.iconP5 > span {
+  font-size: 150px;
+}
+.text9 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: Amaranth;
+  font-size: 2rem;
   color:#463f3a;
 }

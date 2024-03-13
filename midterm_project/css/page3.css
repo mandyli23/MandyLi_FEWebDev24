@@ -235,7 +235,7 @@ a {
 .blankspacee {
   width:100%;
   height:200px;
-  background-image: linear-gradient(to bottom, black, #463f3a); 
+  background: linear-gradient(180deg, rgba(0,0,0,1) 10%, rgba(21,84,114,1) 90%); 
 }
 
 /* HOTEL */
@@ -250,7 +250,7 @@ div.head1 {
     justify-content: space-evenly;
     /* position: relative; */
     /* background-color: #bcb8b1; */
-    background-color: #463f3a;
+    background-color:  rgba(21,84,114,1);
     color: white;
     align-self: center;
   
@@ -268,7 +268,7 @@ div.head1 {
     width: 100%;
     height: 80px;
     display: flex;
-    background-color: #463f3a;
+    background-color:  rgba(21,84,114,1);
 }
 
 
@@ -277,7 +277,7 @@ div.head1 {
 /* 5star */
 
 .starRate5 {
-  background-color: #463f3a;
+  background-color: rgba(21,84,114,1);
   width: 100%;
   height: 100px;
 
@@ -308,12 +308,13 @@ div.head1 {
     justify-content: center;
     align-items: center;
     font-size: 100px;
+    text-align: center;
   }
 
 
 
 div > .s5_1 {
-    background-color: #463f3a; 
+    background-color:  rgba(21,84,114,1); 
     width: 50%;
     height: 300px;
 
@@ -325,7 +326,7 @@ div > .s5_1 {
 
 
 div > .s5_2 {
-    background-color:#463f3a;
+    background-color: rgba(21,84,114,1);
     width: 50%;
     height: 300px;
     color: black;
@@ -335,7 +336,7 @@ div > .s5_2 {
 }
 
 div > .s5_3 {
-    background-color:#463f3a;
+    background-color: rgba(21,84,114,1);
     width: 50%;
     height: 300px;
     color: black;
@@ -356,7 +357,7 @@ div > .s5_3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #463f3a;
+    background-color:  rgba(21,84,114,1);
     opacity: 0;
     z-index: 1; /* Ensure the overlay is behind the image */
     display: flex;
@@ -378,7 +379,7 @@ div > .s5_3 {
 
 /* 4star */
 .starRate4 {
-  background-color: #463f3a;
+  background-color:  rgba(21,84,114,1);
   width: 100%;
   height: 100px;
   display: flex;
@@ -400,13 +401,13 @@ div > .s5_3 {
   flex-shrink: 0;
   width: 40%;
   height: 300px;
-
   scroll-snap-align: start;
   scroll-behavior: smooth;
-  background: #463f3a;
+  background:  rgba(21,84,114,1);
   justify-content: center;
   align-items: center;
   font-size: 100px;
+  text-align: center;
 }
 
 
@@ -434,7 +435,7 @@ div > .s5_3 {
  
   /* 3star */
   .starRate3 {
-    background-color: #463f3a;
+    background-color:  rgba(21,84,114,1);
     width: 100%;
     height: 100px;
     display: flex;
@@ -458,13 +459,13 @@ div > .s5_3 {
     flex-shrink: 0;
     width: 50%;
     height: 300px;
-    
     scroll-snap-align: start;
     scroll-behavior: smooth;
-    background: #463f3a;
+    background:  rgba(21,84,114,1);
     justify-content: center;
     align-items: center;
     font-size: 100px;
+    text-align: center;
   }
 
   .s3_1,
@@ -483,7 +484,7 @@ div.head2 {
     height: 250px;
     display: flex;
     justify-content: space-evenly;
-    background-color: #8a817c;
+    background-color: rgba(50,170,170,1);
     color: white;
     font-family: Amaranth;
 }
@@ -493,7 +494,7 @@ div.head2 {
   width: 100%;
   height: 300px;
   display: flex;
-  background-image: linear-gradient(to bottom, #463f3a,#8a817c ); 
+  background: linear-gradient(180deg, rgba(21,84,114,1) 0%, rgba(50,170,170,1) 90%);
 }
 
 
@@ -510,7 +511,7 @@ div.head2 {
 
 .foodtry {
   /* background-color: #8a817c; */
-  background-color: #8a817c;
+  background-color: rgba(50,170,170,1);
   width: 100%;
 
   height: 700px;
@@ -522,7 +523,7 @@ div.head2 {
   padding: 20px;
   width: 50%;
   height: 580px;
-  background-color: #8a817c;
+  background-color: rgba(50,170,170,1);
   text-align: center;
   font-family:  Helvetica;
   font-style: italic;
@@ -548,7 +549,7 @@ div.head2 {
 
 .right {
   position: absolute;
-  background-color:  #8a817c;
+  background-color:  rgba(50,170,170,1);
   width: 50%;
   height: 580px;
   right: 0;
@@ -557,7 +558,7 @@ div.head2 {
 .rightside{
   position: absolute;
   display: flex;
-  background-color:  #8a817c;
+  background-color: rgba(50,170,170,1);
   width: 50%;
   height: 580px;
   right: 0;
@@ -576,7 +577,7 @@ div.head2 {
   max-height: 100%; 
   border-radius:  90px 0px 0px 90px;
   border-width: 60px ;
-  border-color: #2d3f56 ;
+  border-color: #e4c48f ;
   border-style:dashed;
 
   border-right-width: 37px;
@@ -594,29 +595,29 @@ div.head2 {
 .blankspace3 {
   width: 100%;
   height: 200px;
-  background-image: linear-gradient(180deg, #8a817c, #463f3a);
+  background: linear-gradient(180deg, rgba(50,170,170,1) 13%, rgba(247,242,235,1) 87%);
 }
 .blankspace4 {
   width: 100%;
   height: 70px;
-  background-color:  #463f3a;
+  background-color:  rgba(247,242,235,1);
 }
 
 .attract {
   width: 100%;
   height: 300px;
-  background-color: #463f3a;
+  background-color: rgba(247,242,235,1);
   display: flex;
   justify-content: space-evenly;
 
   font-family: Amaranth;
   font-size: 10rem;
-  color: white;
+  color: #D87151;
 }
 
 .gallery {
 
-  background-color: #463f3a;
+  background-color: rgba(247,242,235,1);
   /* background-color: white; */
   width: 100%;
   height: 1500px;
@@ -632,6 +633,8 @@ div.head2 {
   width: 40%;
   margin: 5px; 
   margin: 10px; 
+  display: flex;
+  justify-content: center;
 
 
 }
@@ -639,10 +642,10 @@ div.head2 {
 .imageSize { 
   width: 90%;
   height: 360px;
-  border-top: 20px solid white;
-  border-left: 20px solid white;
-  border-right: 20px solid white;
-  border-bottom: 70px solid white;
+  border-top: 20px solid #D87151;
+  border-left: 20px solid #D87151;
+  border-right: 20px solid #D87151;
+  border-bottom: 70px solid #D87151;
   padding: 0;
   margin: 0;
  
@@ -701,7 +704,7 @@ div.head2 {
   font-family: Amaranth;
   width: 100%; 
   /* width: 280px; */
-  color: #0b0a0a;
+  color: white;
   font-size: 1rem;
   bottom: -50px;
 
@@ -713,8 +716,8 @@ div.head2 {
 
 .blankspace5 {
   width: 100%;
-  height: 200px;
-  background-image: linear-gradient(to bottom, #463f3a ,#2d3f56);
+  height: 300px;
+  background: linear-gradient(180deg, rgba(247,242,235,1) 0%, rgba(216,113,81,1) 85%);
 }
 
 .fontHead2 {
@@ -726,7 +729,7 @@ div.head2 {
 .transport {
   width: 100%;
   height: 100px;
-  background-color: #2d3f56;
+  background-color:rgba(216,113,81,1);
   color: white;
   display: flex;
   justify-content: space-evenly;
@@ -737,7 +740,7 @@ div.head2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #2d3f56;
+  background-color: rgba(216,113,81,1);
   width: 100%;
   height: 500px;
 
@@ -745,8 +748,8 @@ div.head2 {
 .Scroll-y {
   width: 30%;
   height: 300px;
-  background-color: #84a8d7;
-
+  background-color: #155472;
+  color: white;
   border-radius: 40px 40px 40px 40px;
   overflow-y: auto; /* Enable vertical scrolling */
   scroll-snap-type: y mandatory; /* Snap scrolling to each child */
@@ -789,12 +792,12 @@ div.head2 {
   width: 30%;
   height: 280px;
   /* background-color:#a5968b; */
-  background-color: #2d3f56;
-  border: 10px dashed #a5968b;
+  background-color: rgba(216,113,81,1);
+  border: 10px dashed whitesmoke;
   border-radius: 40px 40px 40px 40px;
   overflow-y: auto; /* Enable vertical scrolling */
   scroll-snap-type: y mandatory; /* Snap scrolling to each child */
-  color: rgb(208, 194, 184);
+  color:whitesmoke;
 }
 
 .Scroll-y2 > div > span {
@@ -840,13 +843,13 @@ div.head2 {
 .blankspace6 {
   width: 100%;
   height: 300px;
-  background-image: linear-gradient(to bottom,#2d3f56, #ce9d8e);
+  background: linear-gradient(180deg, rgba(216,113,81,1) 0%, rgba(238,188,105,1) 53%);
 }
 
 .safe {
   width: 100%;
   height: 200px;
-  background-color:#ce9d8e;
+  background-color:rgba(238,188,105,1);
   color: white;
   display: flex;
   justify-content: center;
@@ -855,7 +858,7 @@ div.head2 {
 .sectionn {
   width: 100%;
   height: 100px;
-  background-color: #ce9d8e;
+  background-color: rgba(238,188,105,1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -863,7 +866,7 @@ div.head2 {
 
 .sectionn p {
 
-  color: rgb(161, 78, 78);
+  color: #D87151;
   font-size: 3rem;
   font-family: Fira Sans;
   
@@ -872,7 +875,7 @@ div.head2 {
 .blankspace7 {
   width: 100%;
   height: 180px;
-  background-color: #ce9d8e;
+  background-color: rgba(238,188,105,1);
 }
 
 /* med quer */
@@ -892,30 +895,30 @@ div.head2 {
   display:flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #ce9d8e;
+  background-color: rgba(238,188,105,1);
   font-size: 3.5rem;
   font-family:  amaranth, Fira Sans;
   font-style: italic;
   font-weight: 900;
   /* color: #463f3a; */
-  color:#2d3f56;
+  color:#155472;
 }
 
 .secondaryWOF {
   width: 100%;
-  height: 750px;
+  height: 850px;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #ce9d8e;
+  background-color: rgba(238,188,105,1);
   /* padding:  20px; */
   
 }
 
 .WOF {
   width: 50%;
-  background-color: #ce9d8e;
+  background-color: rgba(238,188,105,1);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -940,7 +943,7 @@ div.head2 {
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#463f3a;
 }
 
@@ -963,7 +966,7 @@ div.head2 {
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#463f3a;
 }
 
@@ -986,9 +989,33 @@ div.head2 {
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#463f3a;
 }
+
+/* 4 */
+.iconWOF4 {
+  width: 30%;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.66);
+  border-radius: 48%;
+}
+
+.iconWOF4 > span {
+  font-size: 150px;
+}
+.text7 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: Amaranth;
+  font-size: 2rem;
+  color:#463f3a;
+}
+
 
 /* perks */
 
@@ -998,13 +1025,13 @@ div.head2 {
   display:flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #ce9d8e;
+  background-color: rgba(238,188,105,1);
   font-size: 3.5rem;
   font-family:  amaranth, Fira Sans;
   font-style: italic;
   font-weight: 900;
   /* color: #463f3a; */
-  color:#2d3f56;
+  color:#155472;
 }
 
 .secondaryPerk {
@@ -1014,14 +1041,14 @@ div.head2 {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #ce9d8e;
+  background-color: rgba(238,188,105,1);
   /* padding:  20px; */
   
 }
 
 .perk {
   width: 50%;
-  background-color: #ce9d8e;
+  background-color: rgba(238,188,105,1);
   display: flex;
   align-items: center;
   justify-content: space-around;

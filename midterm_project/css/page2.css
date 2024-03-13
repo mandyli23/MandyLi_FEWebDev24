@@ -309,6 +309,7 @@ div.head1 {
     justify-content: center;
     align-items: center;
     font-size: 100px;
+    text-align: center;
   }
 
 
@@ -402,13 +403,13 @@ div > .s5_3 {
   flex-shrink: 0;
   width: 40%;
   height: 300px;
-
   scroll-snap-align: start;
   scroll-behavior: smooth;
   background: #613981;
   justify-content: center;
   align-items: center;
   font-size: 100px;
+  text-align: center;
 }
 
 
@@ -460,13 +461,13 @@ div > .s5_3 {
     flex-shrink: 0;
     width: 50%;
     height: 300px;
-    
     scroll-snap-align: start;
     scroll-behavior: smooth;
     background: #613981;
     justify-content: center;
     align-items: center;
     font-size: 100px;
+    text-align: center;
   }
 
   .s3_1,
@@ -636,10 +637,6 @@ div.head2 {
   margin: 10px; 
   display: flex;
   justify-content: center;
-  /* add flex but adjust media quer */
-
-
-
 }
 
 .imageSize { 

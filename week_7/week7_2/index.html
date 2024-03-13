@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>HTML Boilerplate</title>
+		
+		<style type="text/css">
+            #content {
+                color:red;
+            }
+
+            @media screen and (max-width: 767px) {
+                #content {
+                    color: blue;
+                }
+
+            }
+        </style>
+
+
+
+
+	</head>
+	<body>
+		<button onclick="addSingleP()">Add a single P using strings</button>
+		<button onclick="addMultiP(9)">
+			Add multiple Ps the right way using DOM node
+		</button>
+        <div id="content">
+            <p>This is some dummy text, that will be overwritten by innerHTML</p>
+        </div>
+
+
+
+
+<!-- loading scipts at end will stop stuff from choking -->
+		<script type="text/javascript">
+            //declare our content variable globally
+            var content;
+            //this will work globally because the script tag is after the body's content
+            content = document.getElementById('content')
+            //inner html accesses whats inside the div
+            // console.log(content.innerHTML)
+            function addSingleP () {
+                //when writing html strings inside tags, ur doing it wrong
+                content.innerHTML = '<p class="bad">This is a poorly instantiated p tag using string trickery!</p>'
+
+            }
+            //this is proper dynamic dom
+
+            function addMultiP (num) {
+                //start our loop
+                for (var i = 0; i < num; i++) {
+                    //create a p element node
+                    var p= document.createElement('P')  //<p></p>
+                    //create a text node to go inside our p node
+                    var text = document.createTextNode(
+                        'this is paragraph number ' + (i + 1) + ' created with nodes.'
+                        )
+                    //append the text to the p
+                    p.appendChild(text)
+                    //append the p to our content div
+                    content.appendChild(p)
+
+                }
+            }
+
+        </script>
+	</body>
+</html>

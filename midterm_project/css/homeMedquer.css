@@ -5,8 +5,7 @@
         padding: 0;
         margin: 0;
     }
-/* navigation */
-
+    /* navigation */
     .navbar a,
     .dropdown2,
     .dropdown3,
@@ -14,7 +13,7 @@
       float: none;
       display: flex;
       flex-direction:row;
-    
+      justify-content: center;
       /* display: block; */
       text-align: center;
     }
@@ -22,7 +21,7 @@
     .dropdown2 .dropbtn2,
     .dropdown3 .dropbtn3,
     .dropdown4 .dropbtn4 {
-      width: 100%; 
+      width: 100%;
     } 
   
     .dropdown-content2,
@@ -33,7 +32,9 @@
       width: 100%; 
       padding: 0;
       margin: 0;
+      background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(203,197,197,1) 100%, rgba(75,74,84,1) 100%);
     } 
+
 
 /* banner/header idk*/
 

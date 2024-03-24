@@ -67,7 +67,7 @@ header {
       }
 }
 
-.logos {
+.picGal {
   overflow: hidden;
   height: 650px;
   width: 70px;
@@ -78,14 +78,14 @@ header {
 
 }
 
-.logos-slide {
+.picGal-slide {
   display: inline-block;
   animation: 12s slide infinite linear;
  
 
 }
 
-.logos-slide img {
+.picGal-slide img {
   height: 250px;
   padding-bottom: 40px;
 }
@@ -98,7 +98,7 @@ header {
     }
   }
   
-  .logos2 {
+  .picGal2 {
     overflow: hidden;
     height: 650px;
     width: 70px;
@@ -109,17 +109,52 @@ header {
     
   }
   
-  .logos-slide2 {
+  .picGal-slide2 {
     display: inline-block;
     animation: 8s slide2 infinite linear;
   }
   
-  .logos-slide2 img {
+  .picGal-slide2 img {
     height: 250px;
     padding-bottom: 150px;
 
   }
 
+  @keyframes slide3 {
+    from {
+        transform: translateY(-100%);
+      }
+      to {
+        transform: translateY(50%);
+      }
+}
+
+.picGal3 {
+  overflow: hidden;
+  height: 650px;
+  width: 70px;
+  background:black;
+  white-space: wrap;
+  position: relative;
+
+
+}
+
+.picGal-slide3 {
+  display: inline-block;
+  animation: 10s slide3 infinite linear;
+ 
+
+}
+
+.picGal-slide3 img {
+  height: 250px;
+  padding-bottom: 40px;
+}
+
+
+
+/* 
 
   @keyframes slide3 {
     from {
@@ -130,7 +165,7 @@ header {
     }
   }
   
-  .logos3 {
+  .picGal3 {
     overflow: hidden;
     height: 650px;
     width: 70px;
@@ -140,12 +175,12 @@ header {
     
   }
   
-  .logos-slide3 {
+  .picGal3-slide3  {
     display: inline-block;
-    animation: 10s slide2 infinite linear;
+    animation: 10s slide3 infinite linear;
   }
   
-  .logos-slide3 img {
+  .picGal3-slide3 img {
     height: 250px;
     padding-bottom: 40px;
-  }
+  } */

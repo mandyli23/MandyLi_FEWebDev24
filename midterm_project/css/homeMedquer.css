@@ -71,72 +71,59 @@
 
     }
 
-    .logos {
-        overflow: hidden;
-        height: 250px;
-        width: 100%;
-        background-color: black;
-        white-space: nowrap;
-        position: absolute;
-        /* bottom: 50px; */
-      
+    .picGal {
+      overflow: hidden;
+      height: 250px;
+      width: 100%;
+      background-color: black;
+      white-space: nowrap;
+      position: absolute;
+      /* bottom: 50px; */
+    
+    }
+    
+    .picGal-slide {
+      display: inline-block;
+      animation: 9s slide infinite linear;
+    }
+    
+
+    .picGal-slide img {
+      height: 250px;
+      width: 70px;
+
+      padding: 0 30px;
+
+    }
+
+    .picGal-slide1-2 {
+      display: inline-block;
+      animation: 9s slide infinite linear;
+    
+    }
+    
+
+    .picGal-slide1-2 img {
+      height: 250px;
+      width: 70px;
+      padding: 0 30px;
+
+    }
+
+
+
+
+  @keyframes slide {
+      from {
+        transform: translateX(0%);
       }
-      
-      .logos-slide {
-        display: inline-block;
-        animation: 9s slide infinite linear;
+      to {
+        transform: translateX(-100%);
       }
-      
-  
-      .logos-slide img {
-        height: 250px;
-        width: 70px;
-
-        padding: 0 30px;
- 
-      }
-
-      .logos-slide1-2 {
-        display: inline-block;
-        animation: 9s slide infinite linear;
-       
-      
-      }
-      
-  
-      .logos-slide1-2 img {
-        height: 250px;
-        width: 70px;
-
-        padding: 0 30px;
- 
-      }
-
-
-
-
-    @keyframes slide {
-        from {
-          transform: translateX(0%);
-        }
-        to {
-          transform: translateX(-100%);
-        }
-      } 
-
-      @keyframes slide1-2 {
-        from {
-          transform: translateX(50%);
-        }
-        to {
-          transform: translateX(0%);
-        }
-      } 
-
-
+    } 
 
       /* 2 */
-      .logos2 {
+      .picGal2 {
 
         width: 0;
         height: 0;
@@ -152,7 +139,7 @@
         height: 1500px;
       }
 
-      .logos3 {
+      .picGal3 {
 
         width: 0;
         height: 0;

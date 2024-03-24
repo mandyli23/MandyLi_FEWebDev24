@@ -12,7 +12,12 @@
     box-sizing: 0;
     /* font-family: Saira, Bree Serif; */
     
+}	.text8 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
+
 
 a {
   color: inherit;
@@ -1007,7 +1012,7 @@ div.head2 {
 .iconWOF4 > span {
   font-size: 150px;
 }
-.text7 {
+.text4 {
   width: 50%;
   display: flex;
   justify-content: center;
@@ -1068,12 +1073,12 @@ div.head2 {
 .iconP > span {
   font-size: 150px;
 }
-.text4 {
+.text5 {
   width: 50%;
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#463f3a;
 }
 
@@ -1091,12 +1096,12 @@ div.head2 {
 .iconP2 > span {
   font-size: 150px;
 }
-.text5 {
+.text6 {
   width: 50%;
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#463f3a;
 }
 
@@ -1114,11 +1119,11 @@ div.head2 {
 .iconP3 > span {
   font-size: 150px;
 }
-.text6 {
+.text7 {
   width: 50%;
   display: flex;
   justify-content: center;
   font-family: Amaranth;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#463f3a;
 }

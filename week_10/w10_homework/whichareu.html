@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Which pokemon are you?</title>
+
+		<script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function() {
+            const pokemonData = {
+                1: {name: 'Piplup', image:'./piplup.png' },
+                2: {name: 'Charzard', image:'./Charizard.webp' },
+                3: {name: 'Bulbasaur', image:'./bulbasaur.png' },
+                4: {name: 'Diglet', image:'./diglet.png' },
+                5: {name: 'Jiggly Puff', image:'./Jigglypuff.webp' },
+                6: {name: 'Squirtle', image:'./squirtle.png' },
+                7: {name: 'Wartortle', image:'./Wartortle.png' },
+                8: {name: 'Metapod', image:'./Metapod.png' },
+                9: {name: 'Blastoise', image:'./Blastoise.png' },
+                10: {name: 'Pikachu', image:'./Pikachu.png' },
+                11: {name: 'Psyduck', image:'./Psyduck.webp' }
+                // 2: 'Charzard',
+                // 3: 'Bulbasaur',
+                // 4: 'Diglet',
+                // 5: 'Jiggly Puff',
+                // 6: 'Squirtle',
+                // 7: 'Wartortle',
+                // 8: 'Metapod',
+                // 9: 'Blastoise',
+                // 10: 'Pikachu',
+                // 11: 'Psyduck'
+             };
+
+
+            function indexRange() {
+                var ir = Math.floor(Math.random() * 11) + 1;
+                return ir;
+             }
+
+            function fetchData() {
+                const element1 = document.getElementById('card');
+                const element2 = document.getElementById('img')
+                // const parentElement = document.getElementById('card');
+                const randomIndex = indexRange();
+                const randomPokemon = pokemonData[randomIndex];
+                const message = `You are ${randomPokemon.name}`;
+                const image = `<img src="${randomPokemon.image}"/>`
+                element1.insertAdjacentHTML('beforeend', message);
+                element2.insertAdjacentHTML('beforeend', image);
+                console.log(message)
+            }
+
+            fetchData();
+
+            });
+
+
+
+        </script>
+
+
+
+		<style type="text/css">
+            *{
+                background-color: blanchedalmond;
+            }
+            h1 {
+                display: flex;
+                align-self: center;
+                justify-content: center;
+                font-family: Tahoma, Geneva, Verdana, sans-serif
+            }
+
+            .position {
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+                justify-content: center;
+                text-align: center;
+                font-family: Tahoma;
+                font-size: 1.4rem;
+                font-style: italic;
+            }
+
+            .image {
+                display: flex;
+                align-self: center;
+                justify-content: center;
+                width: 100%;
+                height: 750px;
+            }
+		</style>
+	</head>
+	<body>
+        <h1>Which Pokemon are you?</h1>
+		<div class="position" id="card">
+		</div>
+        <div class="image" id="img"></div>
+
+	
+	</body>
+</html>

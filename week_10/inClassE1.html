@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inspirational Quote</title>
+    <script type="text/javascript">
+
+      async function logApiResults(){
+        //await = dear javascript, please chill out and wait for this promise to be resolved
+        //aka dont execute past this line of code until response has a proper value not just an IOU
+        const response = await fetch(
+          `https://api.quotable.io/quotes/random`
+          ) // returns nothing for .3333 sec
+        // console.log('RESPONSE',response)
+        //this is how mdn does it but .json returns a JS object from the JSON you called it on.
+        return myApiData = await response.json()
+        // console.log('RESULT', result)
+        const message = `${myApiData.content} quote by: ${MyApiData.authorSlug}`
+        // console.log(message)
+
+      }
+
+      logApiResults()
+    </script>
+  </head>
+  <body></body>
+</html>

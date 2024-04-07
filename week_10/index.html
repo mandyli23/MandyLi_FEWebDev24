@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JS Objects and JSON</title>
+    <script type="text/javascript">
+      // initialize a new object and store it as a variable named customer
+      const customer = {
+        name: 'Anthony',
+        age: 23,
+        married: false,
+        pets: ['dog', 'cat', 'iguana'],
+        siblings: [
+          {name: 'Mary', age: 32, married: true},
+          {name: 'Billy', age: 16, married: false},
+        ]
+      }
+
+      const customerJSON = JSON.stringify(customer) //makes a JS object into JSON
+      console.log(customerJSON)
+
+      const customerObject = JSON.parse(customerJSON) //makes JSON into a JS object
+      console.log(customerObject)
+
+      // console.log(customer.name)
+      // customer.name ='Tony'
+      // console.log(customer.name)
+      // customer.eyeColor = "green"
+
+
+      // customer.pets.push('chicken')
+      // console.log(customer)
+
+      // customer.siblings[0].pets = ['spider', 'snail']
+
+      //mary's pets = [] -give her a snail and a spider
+
+      //how would I log how many pets Tony/Anthony has?
+      // console.log(customer.pets.length)
+
+
+      //when using await, we must use async
+      async function logApiResults(){
+        //await = dear javascript, please chill out and wait for this promise to be resolved
+        //aka dont execute past this line of code until response has a proper value not just an IOU
+        const response = await fetch(
+          `https://rickandmortyapi.com/api/character/5`
+          ) // returns nothing for .3333 sec
+        // console.log('RESPONSE',response)
+        //this is how mdn does it but .json returns a JS object from the JSON you called it on.
+        const myApiData = await response.json()
+        // console.log('RESULT', result)
+        const message =  `${myApiData.name} is a ${myApiData.species} from an ${myApiData.orgin.name} and he is ${MyApiData.status}`
+        return(message)
+         //const message
+
+      }
+      
+      console.log(logApiResults())
+      // const myApiData = await logApiResults()
+      //jerry smith is alive
+
+      // function randomInteger() {
+      //   Math.random()  
+      // }
+
+      ///const message = [Character Name] is a [species] from [orgin] and he is [status]
+      // const message = `${myApiData.name} is a ${myApiData.species} from an ${myApiData.orgin.name} and he is ${MyApiData.status}`
+      // console.log(message)
+
+    </script>
+  </head>
+  <body></body>
+</html>

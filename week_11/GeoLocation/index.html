@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Geolocation</title>
+    <script type="text/javascript">
+
+      let loc;
+
+      document.addEventListener('DOMContentLoaded', ()=> {
+        loc = document.getElementById('location')
+        getLocation()
+      })
+
+      const getLocation = () => {
+        // we need to check if we CAN get the location
+        if(navigator.geolocation && navigator.geolocation.getCurrentPosition){
+          // we just checked if geolocation exists, if true we are going to use it to get our current locations
+          //once we have it, it will be passed into a callback function we write
+          navigator.geolocation.getCurrentPosition(setPosition)
+        } else {
+          // we dont have access to geolocation or get current position
+          // so we should display an alternative message to user
+          alert('your browser does not support geolocation')
+        }
+      }
+
+
+
+      //once we call getCurrentPosition, it passes a position object into setPosition
+      const setPosition = (position) => {
+        console.log(position.coords.latitude)
+        console.log(position.coords.longitude)
+        const lat = position.coords.latitude
+        const lon = position.coords.longitude
+      // const loc = document.getElementById('location')
+        loc.innerHTML = `<p>Latitude: ${lat} <br/> Longitude: ${lon}</p>`
+      }
+
+      const showError = (error) => {
+        switch(error.code){
+          case error.PERMISSION_DENIED:
+            loc.innerHTML = 'user denied the request for geolocation'
+            break
+          case error.POSITION_UNAVAILIBLE: 
+            loc.innerHTML = 'Location info is unavailable'
+            break
+          case error.TIMEOUT:
+            loc.innerHTML = 'The Loc req timed out'
+            break
+          case error.UNKNOWN_ERROR: 
+            loc.innerHTML = 'An unknown error occured'
+            break
+          default:  
+            loc.innerHTML = 'An unknown error occured'
+            break
+        }
+
+      }
+
+      //const REALLY_LONG_STRING = 'really long sring'
+      // if (REALLY_LONG_STRING){
+
+      // } 
+
+      //the same as arrow
+      //function getLocation(){}
+    </script>
+  </head>
+  <body>
+    <div id="location">
+      <p>Currently searching for location...</p>
+    </div>
+  </body>
+</html>

@@ -10,6 +10,7 @@ body {
     overflow-x: hidden;
     /* background-color: #F1F2F6; */
     background-color:#F1F2F6;
+   
 }
 
 /* sections */
@@ -22,6 +23,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
     
 }
 
@@ -84,8 +86,9 @@ body {
 #imageWater {
    
     position: absolute;
+    top: 0px;
     z-index: 2;
-    top: 0;
+
  
 }
 
@@ -265,4 +268,149 @@ a {
     position: relative;
     font-family: 'Glamora';
     color: #27187E;
+}
+
+@media  screen and (max-width: 768px) {
+
+    .textTitle {
+        /* margin-bottom: 20%; */
+        font-size: 3rem;
+    }
+
+    .space-top{
+        height: 500px;
+      
+    }
+    .space-mid{
+        display: none;
+      
+    }
+    .nav {
+        height: 100px;
+    }
+
+    .p1 {
+        display: none;
+    }
+    .p2 {
+        display: none;
+    }
+    .p3 {
+        display: none;
+    }
+    .p4 {
+        display: none;
+    }
+    .p5 {
+        display: none;
+    }
+
+
+
+    /* .purpleSection {
+        display: none;
+    } */
+    #imageGirl {
+        max-width: 100%;
+        /* height: 400px; */
+        position: absolute;
+        top: 170%;
+    }
+
+    #imageWater {
+        max-width: 100%;
+        /* height: 100px; */
+        position: absolute;
+        top: 170%;
+    }
+    #imageGirl img {
+        max-width: 100%;
+        height: auto;
+        /* top: 0; */
+ 
+    }
+
+    #imageWater img {
+        max-width: 100%;
+        /* height: auto; */
+        bottom: -100px;
+    }
+
+    .book {
+        top: 240%;
+        left: 50px;
+        font-size: 5rem;
+    }
+
+    /* water */
+
+ .space-water1 {
+        height: 800px;
+        /* justify-content: flex-end; */
+        position: relative;
+        background-color: aqua;
+
+    }
+    .slideWater{
+        max-width: 100%;
+        justify-content: flex-end;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .tv {
+
+        top: 580px;
+        left: 80px;
+        font-size: 4rem;
+
+        /* padding: none; */
+        /* why does the whole thing shift when I change abs pos */
+    }
+    
+    .people {
+
+        top: 620px;
+        left: 200px;
+        font-size: 4rem;
+
+    }
+    
+    .badminton {
+    
+        top: 580px;
+        left: 340px;
+        font-size: 4rem;
+    }
+
+    /* water2 */
+    .space-water2 {
+        height: 450px;
+        /* justify-content: flex-end; */
+        position: relative;
+
+
+    }
+    .slideWater2{
+        max-width: 100%;
+        justify-content: flex-end;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+    /* water3 */
+    .space-water3 {
+        height: 500px;
+        /* justify-content: flex-end; */
+        position: relative;
+
+
+    }
+    .slideWater3{
+        max-width: 100%;
+        justify-content: flex-end;
+        position: absolute;
+        bottom: 0;
+    }
 }

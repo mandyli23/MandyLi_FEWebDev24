@@ -10,6 +10,7 @@
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
 		/>
+		
 
 		<link rel="stylesheet" href="./css/home.css" />
 		<!-- GSAP -->
@@ -24,9 +25,10 @@
 					scrollTrigger: {
 						trigger: "#imageGirl",
 						toggleActions: "restart pause reverse none",
-						start: "160px",
-						end: "700px",
+						start: "10px",
+						end: "200px",
 						scrub: true,
+					
 					}, // start the animation when ".box" enters the viewport (once)
 					x: 500,
 					y: 0,
@@ -120,9 +122,12 @@
 					scrollTrigger: {
 						trigger: ".slideWater",
 						toggleActions: "restart pause reverse none",
-						start: "0px",
-						end: "300px",
+						start: "-400px",
+						end: "-50px",
 						scrub: true,
+						markers: true,
+						ease: "ease.in"
+						
 					},
 					xPercent: -100,
 				});
@@ -131,9 +136,10 @@
 					scrollTrigger: {
 						trigger: ".slideWater",
 						toggleActions: "restart pause reverse none",
-						start: "0px",
-						end: "300px",
+						start: "-400px",
+						end: "-50px",
 						scrub: true,
+						ease: "ease.in",
 					},
 					xPercent: -100,
 				});
@@ -142,9 +148,10 @@
 					scrollTrigger: {
 						trigger: ".slideWater2",
 						toggleActions: "restart pause reverse none",
-						start: "0px",
-						end: "300px",
+						start: "-400px",
+						end: "-50px",
 						scrub: true,
+						ease: "ease.in",
 					},
 					xPercent: 100,
 				});
@@ -153,9 +160,10 @@
 					scrollTrigger: {
 						trigger: ".slideWater3",
 						toggleActions: "restart pause reverse none",
-						start: "-150px",
-						end: "50px",
+						start: "-400px",
+						end: "-50px",
 						scrub: true,
+						ease: "ease.in",
 					},
 					xPercent: -100,
 				});
@@ -195,7 +203,8 @@
 
 		<!-- absolutely postioned stuff with ids -->
 		<div id="imageGirl">
-			<img src="./home_images/Woman.png" />
+			<img src="./home_images/Woman.png" 
+/>
 		</div>
 
 		<div id="imageWater">

@@ -125,12 +125,12 @@ input:checked + label .description {
 }
 
 .book[for="b2"]{
-    background-color: rgb(70, 70, 96);
+    background-image: url( "./books/wfp.png");
 }
 
 
 .book[for="b3"]{
-    background-color: rgb(199, 199, 223);
+    background-image: url( "./books/blm.png");
 }
 
 /* 2nd shelf */
@@ -150,16 +150,16 @@ input:checked + label .description {
 }
 
 .book[for="b4"]{
-    background-color: rgb(52, 153, 158);
+    background-image: url( "./books/gut.png");
 }
 
 .book[for="b5"]{
-    background-color: rgb(172, 134, 52);
+    background-image: url( "./books/rtdm.png");
 }
 
 
 .book[for="b6"]{
-    background-color: rgb(174, 32, 110);
+    background-image: url( "./books/sap.png");
 }
 
 
@@ -175,7 +175,7 @@ input:checked + label .description {
 }
 
 .book[for="b7"]{
-    background-color: rgb(8, 40, 41);
+    background-image: url( "./books/blm.png");
 }
 
 .book[for="b8"]{

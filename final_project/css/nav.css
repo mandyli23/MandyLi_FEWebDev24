@@ -18,7 +18,7 @@
 html, body {
 
     background: #AEB8FE;
-    font-family: "Roslindale Display Condensed";
+   
 
 }
 
@@ -34,6 +34,9 @@ h1.hero-title {
     text-align: center;
     font-size: 10vw;
     font-weight: 400;
+    font-family: raleway;
+    font-weight: 300;
+
 
 }
 

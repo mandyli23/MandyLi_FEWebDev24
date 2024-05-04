@@ -34,14 +34,11 @@
 				function revealMenu() {
 					revealMenuItems();
 
-					const hamburger = document.getElementById("hamburger");
+
 					const toggleBtn = document.getElementById("toggle-btn");
 
-					//I removed the e that was passed into function because I already loaded DOM content and am listening to that
+
 					toggleBtn.onclick = function () {
-						//when hamburger class is clicked, it will display the css for the active class
-						hamburger.classList.toggle("active");
-						//tl reversed and !reversed is used to open and close the animation after the user clicks
 						tl.reversed(!tl.reversed());
 						// this wont work because it will always evalute to false, and set the timeline in reverse
 						//which doesn't evalute its current state
@@ -152,18 +149,6 @@
 						"<"
 					);
 
-					//something went wrong around here
-					// .to(path, 0.8, {
-					//     attr: {
-					//         d:end,
-
-					//     },
-					//     ease: "power2.inOut.easeIn",
-					// },
-					// "-0.5"
-					// )
-
-					//how to reveal
 
 					tl.to(
 						".nav",
